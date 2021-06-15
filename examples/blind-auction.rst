@@ -107,7 +107,7 @@
         }
 
         /// 结束拍卖，并把最高的出价发送给受益人
-        function auctionEnd() public {
+        function auctionEnds() public {
             // 对于可与其他合约交互的函数（意味着它会调用其他函数或发送以太币），
             // 一个好的指导方针是将其结构分为三个阶段：
             // 1. 检查条件
